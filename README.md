@@ -192,10 +192,8 @@ rules/
 ├── .pythonrc                   # Python startup configuration
 ├── .gitignore                  # Git ignore rules
 ├── README.md                    # Documentation
-├── ARCHITECTURE.md              # Architecture
-└── base/                        # Original modules
-    ├── ja3.py
-    └── ja3s.py
+└── ARCHITECTURE.md              # Architecture
+
 ```
 
 ## Examples
