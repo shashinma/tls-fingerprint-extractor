@@ -30,13 +30,6 @@ JA3 is a method for creating TLS client fingerprints by hashing values from Clie
 
 ## Installation
 
-### ⚠️ Important: Virtual environment is required!
-
-The script **DOES NOT WORK** without a virtual environment for the following reasons:
-- macOS uses externally-managed environment for Python
-- System Python is protected from package installation
-- Required dependencies (`dpkt`, `packaging`) are missing in system Python
-
 ### Creating virtual environment (required)
 ```bash
 python3 -m venv venv
