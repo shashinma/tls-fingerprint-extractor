@@ -13,7 +13,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="ja3-extractor",
     version="1.0.0",
-    author="Mikhail Shashin",
+    author="shashinma",
     description="JA3 and JA3S hash extraction from PCAP files with session grouping",
     long_description=long_description,
     long_description_content_type="text/markdown",
