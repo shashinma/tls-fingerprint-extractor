@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "BSD-3-Clause"}
 authors = [
-    {name = "Mikhail Shashin"},
+    {name = "shashinma"},
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
