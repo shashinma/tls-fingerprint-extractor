@@ -134,7 +134,11 @@ python3 examples/api_examples.py
 
 For detailed API usage examples, see [Examples Documentation](../examples/README.md).
 
-### Example 3: Basic Analysis (Command Line)
+### Example 3: Basic Analysis - Session List (Command Line)
+
+```bash
+python3 session_ja3_extractor.py network_capture.pcap -l
+```
 
 **Output:**
 ```
