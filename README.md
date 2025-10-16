@@ -6,28 +6,6 @@ This project is a refactored version of the original script for extracting JA3 a
 
 JA3 is a method for creating TLS client fingerprints by hashing values from Client Hello messages. JA3S is a similar method for Server Hello messages. This tool analyzes PCAP files and extracts these fingerprints with grouping by TLS sessions.
 
-## Features
-
-- [x] JA3 and JA3S hash extraction from PCAP/PCAPng files
-- [x] Grouping by TLS sessions
-- [x] Hash-based Suricata rules generation
-- [x] HEX-based Suricata rules generation
-- [x] Rules export to file with metadata
-- [x] Filtering by specific session
-- [x] List of all sessions with keys
-- [x] JSON output format
-- [x] Colored output with syntax highlighting
-- [x] Support for all ports or port 443 only
-- [x] Show only complete sessions (with JA3 and JA3S)
-- [x] Enhanced colored session list with IP and port highlighting
-- [x] Custom tool name for Suricata rules
-- [x] Automatic duplicate rule removal
-- [x] Generation date in exported rules
-- [x] Custom pycache directory management
-- [x] Modular architecture with PEP compliance
-- [x] Object-oriented design with SOLID principles
-- [x] Comprehensive error handling and documentation
-
 ## Installation
 
 ### Creating virtual environment (required)
