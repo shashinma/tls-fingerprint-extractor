@@ -301,7 +301,7 @@ python3 session_ja3_extractor.py large_capture.pcap -f 1 -H
 
 ```
 project/
-├── captures/           # PCAP files
+├── captures/          # PCAP files
 ├── rules/             # Generated rules
 ├── output/            # Analysis results
 └── logs/              # Log files
