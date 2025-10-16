@@ -1,0 +1,64 @@
+# Include documentation files
+include README.md
+include ARCHITECTURE.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include LICENSE
+include requirements.txt
+
+# Include configuration files
+include pyproject.toml
+include setup.cfg
+include .pythonrc
+include .gitignore
+include .gitattributes
+
+# Include shell scripts
+include *.sh
+
+# Include original modules
+recursive-include base *.py
+
+# Include examples
+recursive-include examples *.py
+
+# Include tests
+recursive-include tests *.py
+
+# Exclude cache and temporary files
+global-exclude __pycache__
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude .Python
+global-exclude build
+global-exclude develop-eggs
+global-exclude dist
+global-exclude downloads
+global-exclude eggs
+global-exclude .eggs
+global-exclude lib
+global-exclude lib64
+global-exclude parts
+global-exclude sdist
+global-exclude var
+global-exclude wheels
+global-exclude *.egg-info
+global-exclude .installed.cfg
+global-exclude *.egg
+
+# Exclude virtual environment
+global-exclude venv
+global-exclude env
+global-exclude ENV
+
+# Exclude IDE files
+global-exclude .vscode
+global-exclude .idea
+global-exclude *.swp
+global-exclude *.swo
+global-exclude *~
+
+# Exclude OS files
+global-exclude .DS_Store
+global-exclude Thumbs.db
