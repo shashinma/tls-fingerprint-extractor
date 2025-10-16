@@ -1,0 +1,11 @@
+# Python configuration for JA3 Extractor project
+import os
+import sys
+
+# Set custom pycache directory
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PYCACHE_DIR = os.path.join(SCRIPT_DIR, '__pycache__')
+os.makedirs(PYCACHE_DIR, exist_ok=True)
+sys.pycache_prefix = PYCACHE_DIR
+
+print(f"Python cache directory set to: {PYCACHE_DIR}")
