@@ -14,11 +14,10 @@ setup(
     name="ja3-extractor",
     version="1.0.0",
     author="Mikhail Shashin",
-    author_email="mikhail.shashin@example.com",
     description="JA3 and JA3S hash extraction from PCAP files with session grouping",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/shashinma/rules",
+    url="https://github.com/shashinma/tls-fingerprint-extractor",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
