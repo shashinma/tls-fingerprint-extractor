@@ -1,4 +1,4 @@
-# JA3 Session Extractor - Refactored Version
+# JA3 Session Extractor
 
 This project is a refactored version of the original script for extracting JA3 and JA3S hashes from PCAP files, divided into classes according to PEP standards.
 
