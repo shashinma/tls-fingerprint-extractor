@@ -8,34 +8,27 @@ JA3 is a method for creating TLS client fingerprints by hashing values from Clie
 
 ## Features
 
-- ✅ JA3 and JA3S hash extraction from PCAP/PCAPng files
-- ✅ Grouping by TLS sessions
-- ✅ Hash-based Suricata rules generation
-- ✅ HEX-based Suricata rules generation
-- ✅ Rules export to file with metadata
-- ✅ Filtering by specific session
-- ✅ List of all sessions with keys
-- ✅ JSON output format
-- ✅ Colored output with syntax highlighting
-- ✅ Support for all ports or port 443 only
-- ✅ Show only complete sessions (with JA3 and JA3S)
-- ✅ Enhanced colored session list with IP and port highlighting
-- ✅ Custom tool name for Suricata rules
-- ✅ Automatic duplicate rule removal
-- ✅ Generation date in exported rules
-- ✅ Custom pycache directory management
-- ✅ Modular architecture with PEP compliance
-- ✅ Object-oriented design with SOLID principles
-- ✅ Comprehensive error handling and documentation
+- [x] JA3 and JA3S hash extraction from PCAP/PCAPng files
+- [x] Grouping by TLS sessions
+- [x] Hash-based Suricata rules generation
+- [x] HEX-based Suricata rules generation
+- [x] Rules export to file with metadata
+- [x] Filtering by specific session
+- [x] List of all sessions with keys
+- [x] JSON output format
+- [x] Colored output with syntax highlighting
+- [x] Support for all ports or port 443 only
+- [x] Show only complete sessions (with JA3 and JA3S)
+- [x] Enhanced colored session list with IP and port highlighting
+- [x] Custom tool name for Suricata rules
+- [x] Automatic duplicate rule removal
+- [x] Generation date in exported rules
+- [x] Custom pycache directory management
+- [x] Modular architecture with PEP compliance
+- [x] Object-oriented design with SOLID principles
+- [x] Comprehensive error handling and documentation
 
 ## Installation
-
-### ⚠️ Important: Virtual environment is required!
-
-The script **DOES NOT WORK** without a virtual environment for the following reasons:
-- macOS uses externally-managed environment for Python
-- System Python is protected from package installation
-- Required dependencies (`dpkt`, `packaging`) are missing in system Python
 
 ### Creating virtual environment (required)
 ```bash
